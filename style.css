@@ -14,24 +14,31 @@ body {
 
 /* ヒーローセクション */
 .hero {
-  background-color: #d0d0d0; /* 背景色（画像に差し替え可） */
-  /* 背景画像を使う場合は以下を有効化 */
-  /* background-image: url('images/background.jpg');
-     background-size: cover;
-     background-position: center; */
-  padding: 20px 16px;
+  background-color: #fff;
+  padding: 0 16px 20px;
   text-align: center;
+  position: relative;
+}
+
+.panda-bg {
+  width: 80%;
+  max-width: 300px;
+  display: block;
+  margin: 0 auto;
 }
 
 .hero-image-wrapper {
-  background-color: #e0e0e0;
-  width: 75%;
-  margin: 0 auto;
+  background-color: #fff;
+  width: 55%;
+  margin: -20px auto 0;
   aspect-ratio: 1 / 1;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  border: 1px solid #ddd;
+  position: relative;
+  z-index: 1;
 }
 
 .hero-image-wrapper img {
