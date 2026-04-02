@@ -18,6 +18,7 @@ body {
   padding: 0 16px 20px;
   text-align: center;
   position: relative;
+  margin-top: -8px;
 }
 
 .panda-bg {
@@ -30,7 +31,7 @@ body {
 .hero-image-wrapper {
   background-color: #fff;
   width: 45%;
-  margin: -20px auto 0;
+  margin: -40px auto 0;
   aspect-ratio: 1 / 1;
   display: flex;
   align-items: center;
